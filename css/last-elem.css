@@ -1,0 +1,8 @@
+.last-elem__img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.last-elem__img:last-child {
+  margin-bottom: 0;
+}

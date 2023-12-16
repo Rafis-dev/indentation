@@ -1,0 +1,37 @@
+.summary {
+  border-radius: 10px;
+  background: #F1F1F1;
+}
+
+.summary__container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.summary__title {
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.summary__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.summary__list-item::before {
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 1px;
+  background-color: #000;
+  margin-right: 8px;
+}
+
+.summary__list {
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.summary__text {
+  padding-left: 15px;
+}

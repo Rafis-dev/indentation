@@ -1,0 +1,24 @@
+.dom__img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.dom__figure {
+  margin-bottom: 30px;
+}
+
+.dom__figure-img {
+  margin: 0;
+}
+
+.dom__figure-caption {
+  padding: 15px 30px;
+  border: 1px solid #000;
+  border-top: none;
+  color: #5E5E5E;
+}
+
+.dom__figure-note {
+  font-weight: 700;
+  text-transform: uppercase;
+}

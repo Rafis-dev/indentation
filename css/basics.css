@@ -1,0 +1,32 @@
+.basics {
+  padding-top: 50px;
+}
+
+.basics__margin-wrapper {
+  margin-bottom: 30px;
+}
+
+.basics__margin-img,
+.basics__padding-img {
+  margin: 0;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: top;
+  max-width: calc(100% - 490px - 30px);
+
+}
+
+.basics__margin-img {
+  margin-right: 25px;
+}
+
+.basics__margin-content,
+.basics__padding-content {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 490px;
+}
+
+.basics__padding-content {
+  margin-right: 25px;
+}
