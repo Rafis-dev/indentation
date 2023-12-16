@@ -1,13 +1,9 @@
-.basics {
-  padding-top: 50px;
-}
-
-.basics__margin-wrapper {
+.basics__wrapper:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.basics__margin-img,
-.basics__padding-img {
+.basics__img,
+.basics__img {
   margin: 0;
   display: inline-block;
   font-size: 0;
@@ -16,17 +12,17 @@
 
 }
 
-.basics__margin-img {
+.basics__img_top_left {
   margin-right: 25px;
 }
 
-.basics__margin-content,
-.basics__padding-content {
+.basics__content,
+.basics__content {
   display: inline-block;
   vertical-align: top;
   max-width: 490px;
 }
 
-.basics__padding-content {
+.basics__content_bottom_left {
   margin-right: 25px;
 }
