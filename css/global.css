@@ -80,7 +80,14 @@ ol {
 }
 
 .container-extra__wrapper {
-  padding: 25px 10px 25px 45px;
+  padding: 25px 45px;
+}
+
+.container-extra__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 20px;
 }
 
 .article {
